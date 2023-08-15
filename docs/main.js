@@ -51,7 +51,7 @@ const projectsEn = [
         ],
         url: "https://www.infomoney.com.br/consumo/itau-libera-compra-de-dolar-e-euro-no-aplicativo/",
         detail: "The project provides customers the functionality of buying foreign currency (dollar and euro) through the bank's mobile app. The customer can buy at any time using mobile, guaranteeing the quotation and withdrawing the currency in the chosen agency.",
-        codeSourceUrl: '#portfolio',
+        codeSourceUrl: 'https://play.google.com/store/apps/details?id=com.itau&pli=1',
         detailIsDisplayed: false,
     },
     {
@@ -67,6 +67,75 @@ const projectsEn = [
         url: 'https://seucreditodigital.com.br/itau-lanca-deposito-de-cheque-pelo-smartphone/',
         detail: "The scope of the project is to allow customers to deposit checks using the bank's mobile app, rather than going to an agency branch. The customer takes a photo of the check (front and back) and the app will process and send the image to the bank.",
         codeSourceUrl: '#portfolio',
+        detailIsDisplayed: false,
+    },
+    {
+        id: "myPortfolio",
+        name: "Portfolio",
+        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        images: [
+            {
+                title: 'Portfolio',
+                src: "assets/images/portfolio.jpeg",
+            },
+        ],
+        url: 'https://vinnamaral.github.io/',
+        detail: "CV in the form of a responsive WEB site using Angular technology",
+        codeSourceUrl: 'https://github.com/vinnamaral/vinnamaral.github.io',
+        detailIsDisplayed: false,
+    },
+    {
+        id: "c6Charge",
+        name: "Charge",
+        technologies: 'Mobile and Backend',
+        images: [
+            {
+                title: 'C6 Bank',
+                src: "assets/images/c6bank.jpg",
+            },
+            {
+                title: 'Charge',
+                src: "assets/images/cobrar1.jpg",
+            },
+            {
+                title: 'Charge',
+                src: "assets/images/cobrar2.jpg",
+            },
+            {
+                title: 'Charge',
+                src: "assets/images/cobrar3.jpg",
+            },
+            {
+                title: 'Charge',
+                src: "assets/images/cobrar4.jpg",
+            },
+        ],
+        url: 'https://play.google.com/store/apps/details?id=com.c6bank.app&hl=en_US',
+        detail: "Feature that allows customers to manage charges, add payers and use filters to display the information they need.",
+        codeSourceUrl: 'https://play.google.com/store/apps/details?id=com.c6bank.app&hl=en_US',
+        detailIsDisplayed: false,
+    },
+    {
+        id: "c6MultiplePayments",
+        name: "Multiple Payments",
+        technologies: 'Mobile and Backend',
+        images: [
+            {
+                title: 'Multiple Payments',
+                src: "assets/images/multiplospagamentos1.jpg",
+            },
+            {
+                title: 'Multiple Payments',
+                src: "assets/images/multiplospagamentos2.jpg",
+            },
+            {
+                title: 'Multiple Payments',
+                src: "assets/images/multiplospagamentos3.jpg",
+            },
+        ],
+        url: 'https://www.c6bank.com.br/blog/multiplos-pagamentos',
+        detail: "Feature that allows customers to make multiple payments at once. With it, you can pay bills and transfers at once. There is the possibility to create batches of up to 10 payments and with just one click complete them all simultaneously. Any type of bank slip or Pix can be added. To do this, you need to read the barcode or type it manually with the Pix key.",
+        codeSourceUrl: 'https://play.google.com/store/apps/details?id=com.c6bank.app&hl=en_US',
         detailIsDisplayed: false,
     },
 ];
@@ -1241,6 +1310,75 @@ const projectsPt = [
         url: 'https://seucreditodigital.com.br/itau-lanca-deposito-de-cheque-pelo-smartphone/',
         detail: "O escopo do projeto é permitir os clientes a depositar cheques usando o aplicativo mobile do banco, em vez de ir até uma agência. O cliente tira uma foto da frente e verso do cheque e o app processa e envia a imagem para o banco.",
         codeSourceUrl: '#portfolio',
+        detailIsDisplayed: false,
+    },
+    {
+        id: "myPortfolio",
+        name: "Portfolio",
+        technologies: 'Angular11, Html5, CSS, TypeScript, BootStrap',
+        images: [
+            {
+                title: 'Portfolio',
+                src: "assets/images/portfolio.jpeg",
+            },
+        ],
+        url: 'https://vinnamaral.github.io/',
+        detail: "CV em forma de website responsive, utilizando a tecnologia Angular.",
+        codeSourceUrl: 'https://github.com/vinnamaral/vinnamaral.github.io',
+        detailIsDisplayed: false,
+    },
+    {
+        id: "c6Charge",
+        name: "Cobrar",
+        technologies: 'Mobile e Backend',
+        images: [
+            {
+                title: 'C6 Bank',
+                src: "assets/images/c6bank.jpg",
+            },
+            {
+                title: 'Cobrar',
+                src: "assets/images/cobrar1.jpg",
+            },
+            {
+                title: 'Cobrar',
+                src: "assets/images/cobrar2.jpg",
+            },
+            {
+                title: 'Cobrar',
+                src: "assets/images/cobrar3.jpg",
+            },
+            {
+                title: 'Cobrar',
+                src: "assets/images/cobrar4.jpg",
+            },
+        ],
+        url: 'https://play.google.com/store/apps/details?id=com.c6bank.app&hl=en_US',
+        detail: "Funcionalidade que permite que os clientes façam o gerenciamento das cobranças, adicione pagadores e utilze os filtros para exibir as informações que precisa.",
+        codeSourceUrl: 'https://play.google.com/store/apps/details?id=com.c6bank.app&hl=en_US',
+        detailIsDisplayed: false,
+    },
+    {
+        id: "c6MultiplePayments",
+        name: "Multiple Payments",
+        technologies: 'Mobile and Backend',
+        images: [
+            {
+                title: 'Multiple Payments',
+                src: "assets/images/multiplospagamentos1.jpg",
+            },
+            {
+                title: 'Multiple Payments',
+                src: "assets/images/multiplospagamentos2.jpg",
+            },
+            {
+                title: 'Multiple Payments',
+                src: "assets/images/multiplospagamentos3.jpg",
+            },
+        ],
+        url: 'https://www.c6bank.com.br/blog/multiplos-pagamentos',
+        detail: "Funcionalidade que permite que os clientes façam múltiplos pagamentos de uma só vez. Com ele, é possível quitar boletos e transferências de uma só vez. Há a possibilidade de criar lotes de até 10 pagamentos e com apenas um clique concluir todos eles simultaneamente. Qualquer tipo de boleto bancário ou Pix pode ser adicionado. Para isso, é preciso fazer a leitura do código de barras ou digitá-lo manualmente junto da chave Pix.",
+        codeSourceUrl: 'https://play.google.com/store/apps/details?id=com.c6bank.app&hl=en_US',
         detailIsDisplayed: false,
     },
 ];
@@ -2440,6 +2578,9 @@ class ProjectsComponent {
         console.log("after view init");
         this.onMouse("purchaseCurrency-link", "purchaseCurrency-img");
         this.onMouse("depositCheck-link", "depositCheck-img");
+        this.onMouse("myPortfolio-link", "myPortfolio-img");
+        this.onMouse("c6Charge-link", "c6Charge-img");
+        this.onMouse("c6MultiplePayments-link", "c6MultiplePayments-img");
         this.venobox = $('.venobox');
         this.venobox.venobox();
     }
